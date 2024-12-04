@@ -11,6 +11,3 @@ for i in range(n):
 for i in range(p):
     result_row = arr[i * q:(i + 1) * q]
     print(' '.join(map(str, result_row)))
-  #  for j in range(q-1):
-   #     print(result_row[j],end = ' ')
-   # print(result_row[q-1])
